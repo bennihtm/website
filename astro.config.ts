@@ -4,13 +4,15 @@ import expressiveCode from 'astro-expressive-code';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import spectre from './package/src';
-import cloudflare from '@astrojs/cloudflare';
 import { spectreDark } from './src/ec-theme';
+
+import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bendaha.eu.org',
   output: 'static',
+
   integrations: [
     expressiveCode({
       themes: [spectreDark],
@@ -45,5 +47,6 @@ export default defineConfig({
       }
     })
   ],
+
   adapter: cloudflare()
 });
