@@ -10,7 +10,7 @@ import { spectreDark } from './src/ec-theme';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://spectre.louisescher.dev',
+  site: 'https://bendaha.eu.org',
   output: 'static',
   integrations: [
     expressiveCode({
@@ -19,25 +19,25 @@ export default defineConfig({
     mdx(),
     sitemap(),
     spectre({
-      name: 'Spectre',
+      name: "Benjamin Hartmann",
       openGraph: {
         home: {
-          title: 'Spectre',
-          description: 'A minimalistic theme for Astro.'
+          title: "Benjamin Hartmann",
+          description: 'Christian. Tech guy. Open Source enthusiast.',
         },
         blog: {
           title: 'Blog',
-          description: 'News and guides for Spectre.'
+          description: 'Thoughts and ramblings by me.'
         },
         projects: {
           title: 'Projects'
         }
       },
       giscus: {
-        repository: 'louisescher/spectre',
-        repositoryId: 'R_kgDONjm3ig',
+        repository: 'bennihtm/website',
+        repositoryId: 'R_kgDOObDtBA',
         category: 'General',
-        categoryId: 'DIC_kwDONjm3is4ClmBF',
+        categoryId: 'DIC_kwDOObDtBM4CpMDw',
         mapping: 'pathname',
         strict: true,
         reactionsEnabled: true,

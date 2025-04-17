@@ -6,6 +6,15 @@
       "name": "github"
     },
     "text": "GitHub",
-    "link": "https://github.com/louisescher/spectre"
+    "link": "https://github.com/bennihtm"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "lucide",
+      "name": "instagram"
+    },
+    "text": "Instagram",
+    "link": "https://instagram.com/bendaha_htm"
   }
 ]
