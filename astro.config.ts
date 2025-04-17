@@ -5,7 +5,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import spectre from './package/src';
 import { spectreDark } from './src/ec-theme';
-
+import pagefind from "astro-pagefind";
 import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
@@ -45,7 +45,8 @@ export default defineConfig({
         emitMetadata: false,
         lang: 'en',
       }
-    })
+    }),
+    pagefind(),
   ],
 
   adapter: cloudflare()

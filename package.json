@@ -2,14 +2,13 @@
   "name": "spectre-blog",
   "type": "module",
   "version": "1.0.2",
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@10.8.1",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "start": "node dist/server/entry.mjs",
     "preview": "astro preview",
-    "astro": "astro",
-    "postbuild": "pagefind --site dist/client"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.5.0",
@@ -22,6 +21,7 @@
     "astro": "^5.7.2",
     "astro-embed": "^0.9.0",
     "astro-expressive-code": "^0.38.3",
+    "astro-pagefind": "^1.8.3",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
