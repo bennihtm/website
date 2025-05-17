@@ -27,6 +27,7 @@ p:has(img) {
 
 p img {
   max-width: 100%;
+  height: auto;
 }
 
 .toc-card {
